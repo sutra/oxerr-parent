@@ -10,7 +10,7 @@
 	<artifactId>oxerr-parent</artifactId>
 	<name>OxErr Parent</name>
 	<packaging>pom</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<url>https://www.oxerr.org/oxerr-parent</url>
 	<inceptionYear>2021</inceptionYear>
 	<licenses>
