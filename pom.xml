@@ -9,8 +9,9 @@
 	<groupId>org.oxerr</groupId>
 	<artifactId>oxerr-parent</artifactId>
 	<name>OxErr Parent</name>
+	<description>OxErr Parent pom.</description>
 	<packaging>pom</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<url>https://www.oxerr.org/oxerr-parent</url>
 	<inceptionYear>2021</inceptionYear>
 	<licenses>
@@ -105,6 +106,11 @@
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-failsafe-plugin</artifactId>
+					<version>3.0.0-M5</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-gpg-plugin</artifactId>
 					<version>3.0.1</version>
 				</plugin>
@@ -182,6 +188,11 @@
 					<groupId>org.codehaus.cargo</groupId>
 					<artifactId>cargo-maven2-plugin</artifactId>
 					<version>1.8.4</version>
+				</plugin>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>build-helper-maven-plugin</artifactId>
+					<version>3.2.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
