@@ -11,7 +11,7 @@
 	<name>OxErr Parent</name>
 	<description>OxErr Parent POM.</description>
 	<packaging>pom</packaging>
-	<version>1.2.0</version>
+	<version>1.2.1</version>
 	<url>https://www.oxerr.org/oxerr-parent</url>
 	<inceptionYear>2021</inceptionYear>
 	<licenses>
@@ -59,7 +59,7 @@
 						<configuration>
 							<rules>
 								<requireMavenVersion>
-									<version>3.3.9</version>
+									<version>3.5.0</version>
 								</requireMavenVersion>
 							</rules>
 						</configuration>
