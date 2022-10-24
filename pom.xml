@@ -11,7 +11,7 @@
 	<name>OxErr Parent</name>
 	<description>OxErr Parent POM.</description>
 	<packaging>pom</packaging>
-	<version>1.4.1-SNAPSHOT</version>
+	<version>1.5.0</version>
 	<url>https://www.oxerr.org/oxerr-parent</url>
 	<inceptionYear>2021</inceptionYear>
 	<licenses>
