@@ -11,7 +11,7 @@
 	<name>OxErr Parent</name>
 	<description>OxErr Parent POM.</description>
 	<packaging>pom</packaging>
-	<version>1.6.3</version>
+	<version>2.0.0</version>
 	<url>https://www.oxerr.org/oxerr-parent</url>
 	<inceptionYear>2021</inceptionYear>
 	<licenses>
@@ -41,9 +41,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
-		<surefire.version>3.0.0</surefire.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<surefire.version>3.1.2</surefire.version>
 	</properties>
 	<build>
 		<plugins>
@@ -72,22 +72,22 @@
 				<plugin>
 					<groupId>org.apache.felix</groupId>
 					<artifactId>maven-bundle-plugin</artifactId>
-					<version>5.1.8</version>
+					<version>5.1.9</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-assembly-plugin</artifactId>
-					<version>3.5.0</version>
+					<version>3.6.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-checkstyle-plugin</artifactId>
-					<version>3.2.1</version>
+					<version>3.3.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-clean-plugin</artifactId>
-					<version>3.2.0</version>
+					<version>3.3.1</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -112,12 +112,12 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-failsafe-plugin</artifactId>
-					<version>3.0.0</version>
+					<version>3.1.2</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-gpg-plugin</artifactId>
-					<version>3.0.1</version>
+					<version>3.1.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -142,12 +142,12 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-pmd-plugin</artifactId>
-					<version>3.20.0</version>
+					<version>3.21.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-project-info-reports-plugin</artifactId>
-					<version>3.4.2</version>
+					<version>3.4.5</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -157,12 +157,12 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>3.0.0</version>
+					<version>3.0.1</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-shade-plugin</artifactId>
-					<version>3.4.1</version>
+					<version>3.5.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -187,7 +187,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-war-plugin</artifactId>
-					<version>3.3.2</version>
+					<version>3.4.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
@@ -197,12 +197,12 @@
 				<plugin>
 					<groupId>org.codehaus.cargo</groupId>
 					<artifactId>cargo-maven3-plugin</artifactId>
-					<version>1.10.4</version>
+					<version>1.10.7</version>
 				</plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>build-helper-maven-plugin</artifactId>
-					<version>3.3.0</version>
+					<version>3.4.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
@@ -212,7 +212,7 @@
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>versions-maven-plugin</artifactId>
-					<version>2.15.0</version>
+					<version>2.16.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.jacoco</groupId>
@@ -232,17 +232,17 @@
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
-					<version>2.7.12</version>
+					<version>3.1.1</version>
 				</plugin>
 				<plugin>
 					<groupId>com.amashchenko.maven.plugin</groupId>
 					<artifactId>gitflow-maven-plugin</artifactId>
-					<version>1.19.0</version>
+					<version>1.20.0</version>
 				</plugin>
 				<plugin>
 					<groupId>com.github.spotbugs</groupId>
 					<artifactId>spotbugs-maven-plugin</artifactId>
-					<version>4.7.3.4</version>
+					<version>4.7.3.5</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
