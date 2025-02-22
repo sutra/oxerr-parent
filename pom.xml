@@ -232,7 +232,7 @@
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
-					<version>3.2.5</version>
+					<version>3.2.12</version>
 				</plugin>
 				<plugin>
 					<groupId>com.amashchenko.maven.plugin</groupId>
