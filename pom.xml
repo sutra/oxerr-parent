@@ -11,7 +11,7 @@
 	<name>OxErr Parent</name>
 	<description>OxErr Parent POM.</description>
 	<packaging>pom</packaging>
-	<version>2.2.1</version>
+	<version>2.2.2</version>
 	<url>https://www.oxerr.org/oxerr-parent</url>
 	<inceptionYear>2021</inceptionYear>
 	<licenses>
@@ -232,7 +232,7 @@
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
-					<version>3.2.5</version>
+					<version>3.2.12</version>
 				</plugin>
 				<plugin>
 					<groupId>com.amashchenko.maven.plugin</groupId>
